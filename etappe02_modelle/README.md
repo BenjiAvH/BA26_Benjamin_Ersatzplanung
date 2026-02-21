@@ -42,7 +42,7 @@ python3 -m etappe02_modelle.scripts.run_case \
   --config etappe02_modelle/configs/v1_ws_milp.final.json \
   --out logs/laeufe/<dataset_id> \
   --seed 20260209 \
-  --budget 300 \
+  --budget 90 \
   --resume
 ```
 
@@ -53,7 +53,7 @@ python3 -m etappe02_modelle.scripts.run_dataset \
   --plan etappe02_modelle/configs/run_dataset.final.json \
   --out logs/laeufe/<dataset_id> \
   --seed 20260209 \
-  --budget 300 \
+  --budget 90 \
   --resume
 ```
 

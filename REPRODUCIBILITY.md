@@ -38,7 +38,7 @@ python3 fullrun.py \
   --dataset-config etappe01_simulation/configs/praxisnah_v1.json \
   --solver-config etappe02_modelle/configs/run_dataset.final.json \
   --methods V1,V2,V3,V4 \
-  --budget-seconds 300 \
+  --budget-seconds 90 \
   --eval-group-by size,severity \
   --eval-format pdf \
   --eval-set-mode union
@@ -54,7 +54,7 @@ python3 tools/finalrun_multiseed.py \
   --dataset-config etappe01_simulation/configs/praxisnah_v1.json \
   --dataset-seed 20260219 \
   --plan etappe02_modelle/configs/run_dataset.final.json \
-  --budget 600 \
+  --budget 90 \
   --run-seeds 101,202,303 \
   --methods V1,V2,V3,V4 \
   --package-thesis-run \
@@ -86,7 +86,7 @@ python3 -m etappe02_modelle.scripts.run_dataset \
   --plan etappe02_modelle/configs/run_dataset.final.json \
   --out logs/laeufe/praxisnah_v1 \
   --seed 20260209 \
-  --budget 300 \
+  --budget 90 \
   --resume
 ```
 
