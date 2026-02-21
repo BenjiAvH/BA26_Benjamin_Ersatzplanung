@@ -10,6 +10,11 @@ Im Repo steht deshalb vor allem, **wie** man die Pipeline startet, **wo** die Au
 - **Etappe 02 (`etappe02_modelle/`)**: Erzeugt pro Instanz–Szenario zulässige Ersatzdienstpläne mit vier Verfahren **V1–V4** und loggt die resultierenden **Approximationsmengen** $\mathcal{A}_v$ als `runs.jsonl`/`solutions.jsonl` (Ehrgott, 2005).
 - **Etappe 03 (`etappe03_evaluation/`)**: Berechnet mengenbasierte, Pareto-orientierte Metriken (ND / $P^\star$ / Coverage / Contribution) sowie sekundäre Laufzeitkennzahlen und exportiert CSV/Plots/LaTeX (Borgonjon und Maenhout, 2022).
 
+Details je Etappe:
+- [Etappe 01 – Simulation](etappe01_simulation/README.md)
+- [Etappe 02 – Modelle](etappe02_modelle/README.md)
+- [Etappe 03 – Evaluation](etappe03_evaluation/README.md)
+
 Startpunkte:
 - **`fullrun.py`**: startet Etappe 01 -> 02 -> 03 als zusammenhängenden Lauf.
 - **`tools/finalrun_multiseed.py`**: Treiber für Multi-Seed-Experimente (Datensatz einmal erzeugen, Etappe 02 über eine Seed-Liste, Auswertung als `union` und `per_group`).
