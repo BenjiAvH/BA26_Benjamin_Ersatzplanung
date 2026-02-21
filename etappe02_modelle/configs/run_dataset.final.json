@@ -1,0 +1,20 @@
+{
+  "procedures": [
+    {
+      "verfahren": "V1",
+      "config": "etappe02_modelle/configs/v1_ws_milp.final.json"
+    },
+    {
+      "verfahren": "V2",
+      "config": "etappe02_modelle/configs/v2_eps_milp.final.json"
+    },
+    {
+      "verfahren": "V3",
+      "config": "etappe02_modelle/configs/v3_vnd_vns.final.json"
+    },
+    {
+      "verfahren": "V4",
+      "config": "etappe02_modelle/configs/v4_upgh.final.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "verfahren": "V4",
+  "beschreibung": "Beispiel-Config für V4 (UPGH): Pareto-orientierte, populationsbasierte Suche inkl. ND-Archiv (Kap. 5.1: Forschungsdesign & Evaluationsstrategie).",
+  "n_runs": 1,
+  "pop_size": 100,
+  "pc": 0.6,
+  "pm": 0.001,
+  "archive_max": 300,
+  "crossover_mode": "day_block",
+  "init_perturb_steps": null,
+  "max_restarts": 4,
+  "max_generations": 100000
+}

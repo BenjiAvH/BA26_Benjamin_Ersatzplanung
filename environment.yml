@@ -1,0 +1,19 @@
+name: ba_pipeline
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+
+  # MILP-Backend für V1/V2 (Kap. 5.1: Forschungsdesign & Evaluationsstrategie; V1/V2 sind MILP-basiert).
+  - scip
+  - pyscipopt
+  - pip
+
+  # Etappe 3 (Evaluation/Auswertung): Exporte + Plots (Kap. 5.3: Metriken & Vergleichsauswertung).
+  - numpy
+  - pandas
+  - matplotlib
+
+  # Notebook-Frontend (notebooks/fullrun_lab.ipynb): interaktives Plan->Run->Report->Export.
+  - notebook
+  - ipywidgets

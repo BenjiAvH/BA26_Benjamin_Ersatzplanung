@@ -1,0 +1,26 @@
+{
+  "verfahren": "V2",
+  "beschreibung": "Beispiel-Config für V2 (EPS-MILP, SCIP/PySCIPOpt): ε-Restriktionen (Kap. 5.1: Forschungsdesign & Evaluationsstrategie).",
+  "solver": {
+    "name": "scip",
+    "threads": 1
+  },
+  "bounds": {
+    "enabled": true,
+    "method": "extreme_runs_minmax",
+    "budget_fraction": 0.10
+  },
+  "primary_objectives": ["f_stab"],
+  "eps_configs": [
+    {
+      "f_ot_max": 0,
+      "f_pref_max": 0,
+      "f_fair_max": 0
+    },
+    {
+      "f_ot_max": 8,
+      "f_pref_max": 100,
+      "f_fair_max": 2
+    }
+  ]
+}

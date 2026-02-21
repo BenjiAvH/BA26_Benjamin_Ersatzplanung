@@ -1,0 +1,22 @@
+{
+  "verfahren": "V3",
+  "beschreibung": "Beispiel-Config für V3 (VND/VNS): Multi-Start + ω-Impulse pro Start (Kap. 5.1: Forschungsdesign & Evaluationsstrategie).",
+  "n_starts": 3,
+  "omega_set_id": "Omega21",
+  "omega_assignment": "cycle",
+  "start_design": "sigma_then_perturb",
+  "acceptance_mode": "Z_omega_norm_strict",
+  "yield_mode": "incumbent_improvements",
+  "yield_period": 5,
+  "neighborhoods": [
+    "changeShift",
+    "swapShift",
+    "assignDeleteShift",
+    "changeAssignMissingShift"
+  ],
+  "K_MAX": 4,
+  "STAGNATION_LIMIT": 30,
+  "MAX_LOCAL_STEPS": 100,
+  "max_tries_per_neighborhood": 200,
+  "perturb_steps": null
+}

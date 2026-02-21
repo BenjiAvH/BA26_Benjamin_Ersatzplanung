@@ -1,0 +1,77 @@
+{
+  "dataset_id": "praxisnah_v1",
+  "schema_version": "1.0",
+  "fix_horizon": {
+    "fraction": 0.25,
+    "min_days": 7,
+    "max_days": 14
+  },
+  "shifts": {
+    "S": 4,
+    "h": [0, 8, 8, 8],
+    "P_forbidden": [[3, 1], [2, 1]]
+  },
+  "limits": {
+    "H_max": 40
+  },
+  "qualification": {
+    "q_night": 0.4
+  },
+  "availability": {
+    "levels": {
+      "loose": 0.85,
+      "tight": 0.55
+    },
+    "slack_min": 2,
+    "slack_fraction": 0.05
+  },
+  "demand": {
+    "patterns": ["weekday_high", "weekend_high"],
+    "weekday_high_weekday_frac": 0.65,
+    "weekday_high_weekend_frac": 0.55,
+    "weekend_high_weekday_frac": 0.6,
+    "weekend_high_weekend_frac": 0.7,
+    "split_frueh": 0.45,
+    "split_spaet": 0.4,
+    "split_nacht": 0.15
+  },
+  "size_classes": {
+    "small": {
+      "I": 40,
+      "T": 28
+    },
+    "medium": {
+      "I": 100,
+      "T": 56
+    },
+    "large": {
+      "I": 200,
+      "T": 56
+    }
+  },
+  "disturbance": {
+    "default_model": "full_day_absence",
+    "attempts": 50,
+    "severity": {
+      "leicht": {
+        "n_absent_fraction": 0.01,
+        "n_absent_min": 1,
+        "duration_days": 1
+      },
+      "mittel": {
+        "n_absent_fraction": 0.03,
+        "n_absent_min": 2,
+        "duration_days": 2
+      },
+      "schwer": {
+        "n_absent_fraction": 0.07,
+        "n_absent_min": 4,
+        "duration_days": 4
+      }
+    }
+  },
+  "preferences": {
+    "noise": false
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+  "verfahren": "V1",
+  "beschreibung": "Beispiel-Config für V1 (WS-MILP, SCIP/PySCIPOpt): gewichtete Summen-Skalarisierung (Kap. 4.5: Behandlung der Multi-Kriterien; Kap. 5.1: Forschungsdesign & Evaluationsstrategie).",
+  "solver": {
+    "name": "scip",
+    "threads": 1
+  },
+  "bounds": {
+    "enabled": true,
+    "method": "extreme_runs_minmax",
+    "budget_fraction": 0.10
+  },
+  "omegas": [
+    [1, 0, 0, 0],
+    [0, 1, 0, 0],
+    [0, 0, 1, 0],
+    [0, 0, 0, 1],
+    [1, 1, 1, 1]
+  ]
+}
