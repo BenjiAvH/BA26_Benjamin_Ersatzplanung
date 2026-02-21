@@ -57,6 +57,7 @@ python3 tools/finalrun_multiseed.py \
   --budget 90 \
   --run-seeds 101,202,303 \
   --methods V1,V2,V3,V4 \
+  --continue-on-error \
   --package-thesis-run \
   --thesis-run-dir results/thesis_run \
   --stage2-zip zip
@@ -81,14 +82,14 @@ python3 -m etappe01_simulation.scripts.generate_dataset \
 
 Etappe 02 (Datensatz-Lauf):
 ```bash
-python3 -m etappe02_modelle.scripts.run_dataset \
-  --dataset logs/daten/praxisnah_v1/manifest.json \
-  --plan etappe02_modelle/configs/run_dataset.final.json \
-  --out logs/laeufe/praxisnah_v1 \
-  --seed 20260209 \
-  --budget 90 \
-  --resume
-```
+	python3 -m etappe02_modelle.scripts.run_dataset \
+	  --dataset logs/daten/praxisnah_v1/manifest.json \
+	  --plan etappe02_modelle/configs/run_dataset.final.json \
+	  --out logs/laeufe/praxisnah_v1 \
+	  --seed 20260209 \
+	  --budget 90 \
+	  --resume
+	```
 
 Etappe 03:
 ```bash

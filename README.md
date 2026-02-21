@@ -58,6 +58,7 @@ python3 tools/finalrun_multiseed.py \
   --budget 90 \
   --run-seeds 101,202,303 \
   --methods V1,V2,V3,V4 \
+  --continue-on-error \
   --package-thesis-run \
   --thesis-run-dir results/thesis_run \
   --stage2-zip zip
