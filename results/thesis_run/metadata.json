@@ -1,0 +1,119 @@
+{
+  "driver": "finalrun_multiseed",
+  "driver_version": 1,
+  "run_id": "20260221T184143Z",
+  "status": "running",
+  "start_utc": "2026-02-21T18:41:43.039656+00:00",
+  "end_utc": null,
+  "exit_code": null,
+  "git_commit": "3720f97b2d001087d810cd78ca634116e21e6d60",
+  "argv": [
+    "tools/finalrun_multiseed.py",
+    "--out-root",
+    "fullrun_out",
+    "--dataset-config",
+    "etappe01_simulation/configs/praxisnah_v1.json",
+    "--dataset-seed",
+    "20260219",
+    "--plan",
+    "etappe02_modelle/configs/run_dataset.final.json",
+    "--budget",
+    "90",
+    "--run-seeds",
+    "101,202,303",
+    "--methods",
+    "V1,V2,V3,V4",
+    "--continue-on-error",
+    "--package-thesis-run",
+    "--thesis-run-dir",
+    "results/thesis_run",
+    "--stage2-zip",
+    "zip"
+  ],
+  "repo_root": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline",
+  "out_root": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out",
+  "paths": {
+    "stage1_dataset": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset",
+    "stage2_runs": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage2_runs",
+    "stage3_evaluation_union": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage3_evaluation_union",
+    "stage3_evaluation_per_group": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage3_evaluation_per_group",
+    "driver_logs": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\driver_logs",
+    "stage1_manifest": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\manifest.json"
+  },
+  "dataset_config": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\etappe01_simulation\\configs\\praxisnah_v1.json",
+  "dataset_seed": 20260219,
+  "plan": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\etappe02_modelle\\configs\\run_dataset.final.json",
+  "budget_seconds": 90,
+  "run_seeds": [
+    101,
+    202,
+    303
+  ],
+  "methods": [
+    "V1",
+    "V2",
+    "V3",
+    "V4"
+  ],
+  "cli_args": {
+    "out_root": "fullrun_out",
+    "dataset_config": "etappe01_simulation\\configs\\praxisnah_v1.json",
+    "dataset_seed": 20260219,
+    "plan": "etappe02_modelle\\configs\\run_dataset.final.json",
+    "budget": 90,
+    "run_seeds": "101,202,303",
+    "methods": "V1,V2,V3,V4",
+    "resume": true,
+    "no_plots": false,
+    "no_latex": false,
+    "skip_stage1": false,
+    "skip_stage2": false,
+    "skip_stage3": false,
+    "package_thesis_run": true,
+    "thesis_run_dir": "results\\thesis_run",
+    "stage2_zip": "zip",
+    "eval_replicate_key": "seed_global",
+    "eval_set_mode_union": "union",
+    "eval_set_mode_per_group": "per_group",
+    "continue_on_error": true
+  },
+  "stages": {
+    "stage1": {
+      "status": "skipped_existing"
+    },
+    "stage2": {
+      "status": "partial",
+      "seeds": [
+        {
+          "seed": 101,
+          "exit_code": 2,
+          "log": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\driver_logs\\20260221T184143Z__stage2_seed_101.log"
+        },
+        {
+          "seed": 202,
+          "exit_code": 2,
+          "log": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\driver_logs\\20260221T184143Z__stage2_seed_202.log"
+        },
+        {
+          "seed": 303,
+          "exit_code": 2,
+          "log": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\driver_logs\\20260221T184143Z__stage2_seed_303.log"
+        }
+      ]
+    },
+    "stage3_union": {
+      "status": "ok"
+    },
+    "stage3_per_group": {
+      "status": "ok"
+    },
+    "thesis_artifacts": {
+      "status": "pending"
+    }
+  },
+  "logs": {
+    "stage3_union": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\driver_logs\\20260221T184143Z__stage3_union.log",
+    "stage3_per_group": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\driver_logs\\20260221T184143Z__stage3_per_group.log",
+    "thesis_artifacts": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\driver_logs\\20260221T184143Z__thesis_artifacts.log"
+  }
+}

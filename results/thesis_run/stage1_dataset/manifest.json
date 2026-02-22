@@ -1,0 +1,1745 @@
+{
+  "dataset_id": "praxisnah_v1",
+  "cases": [
+    {
+      "case_id": "sc-small__av-loose__dp-weekday_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-loose__dp-weekday_high__sev-leicht.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "loose",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 11,
+            "t_start": 26,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 147715365,
+        "scenario": 3997253079
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-loose__dp-weekday_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-loose__dp-weekday_high__sev-mittel.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "loose",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 33,
+            "t_start": 14,
+            "duration": 2
+          },
+          {
+            "i": 2,
+            "t_start": 8,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 147715365,
+        "scenario": 188796000
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-loose__dp-weekday_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-loose__dp-weekday_high__sev-schwer.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "loose",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 32,
+            "t_start": 8,
+            "duration": 4
+          },
+          {
+            "i": 20,
+            "t_start": 11,
+            "duration": 4
+          },
+          {
+            "i": 33,
+            "t_start": 22,
+            "duration": 4
+          },
+          {
+            "i": 7,
+            "t_start": 15,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 147715365,
+        "scenario": 3237927690
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-loose__dp-weekend_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-loose__dp-weekend_high__sev-leicht.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "loose",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 39,
+            "t_start": 28,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2352928566,
+        "scenario": 3312817795
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-loose__dp-weekend_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-loose__dp-weekend_high__sev-mittel.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "loose",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 36,
+            "t_start": 24,
+            "duration": 2
+          },
+          {
+            "i": 8,
+            "t_start": 23,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2352928566,
+        "scenario": 2928888603
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-loose__dp-weekend_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-loose__dp-weekend_high__sev-schwer.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "loose",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 1,
+            "t_start": 16,
+            "duration": 4
+          },
+          {
+            "i": 38,
+            "t_start": 18,
+            "duration": 4
+          },
+          {
+            "i": 33,
+            "t_start": 23,
+            "duration": 4
+          },
+          {
+            "i": 14,
+            "t_start": 19,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2352928566,
+        "scenario": 3460739147
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-tight__dp-weekday_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-tight__dp-weekday_high__sev-leicht.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "tight",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 31,
+            "t_start": 8,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1445443418,
+        "scenario": 1093523354
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-tight__dp-weekday_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-tight__dp-weekday_high__sev-mittel.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "tight",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 4,
+            "t_start": 18,
+            "duration": 2
+          },
+          {
+            "i": 1,
+            "t_start": 14,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1445443418,
+        "scenario": 1897111117
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-tight__dp-weekday_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-tight__dp-weekday_high__sev-schwer.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "tight",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 30,
+            "t_start": 24,
+            "duration": 4
+          },
+          {
+            "i": 26,
+            "t_start": 22,
+            "duration": 4
+          },
+          {
+            "i": 38,
+            "t_start": 15,
+            "duration": 4
+          },
+          {
+            "i": 29,
+            "t_start": 16,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1445443418,
+        "scenario": 678654307
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-tight__dp-weekend_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-tight__dp-weekend_high__sev-leicht.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "tight",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 35,
+            "t_start": 16,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 967114570,
+        "scenario": 1700730675
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-tight__dp-weekend_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-tight__dp-weekend_high__sev-mittel.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "tight",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 9,
+            "t_start": 26,
+            "duration": 2
+          },
+          {
+            "i": 2,
+            "t_start": 12,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 967114570,
+        "scenario": 940893856
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-small__av-tight__dp-weekend_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-small__av-tight__dp-weekend_high__sev-schwer.json",
+      "tags": {
+        "size_class": "small",
+        "availability_level": "tight",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 0,
+            "t_start": 21,
+            "duration": 4
+          },
+          {
+            "i": 6,
+            "t_start": 24,
+            "duration": 4
+          },
+          {
+            "i": 4,
+            "t_start": 16,
+            "duration": 4
+          },
+          {
+            "i": 17,
+            "t_start": 17,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 967114570,
+        "scenario": 3646491734
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-loose__dp-weekday_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-loose__dp-weekday_high__sev-leicht.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "loose",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 33,
+            "t_start": 36,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2038114521,
+        "scenario": 1958434957
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-loose__dp-weekday_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-loose__dp-weekday_high__sev-mittel.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "loose",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 50,
+            "t_start": 39,
+            "duration": 2
+          },
+          {
+            "i": 78,
+            "t_start": 33,
+            "duration": 2
+          },
+          {
+            "i": 92,
+            "t_start": 21,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2038114521,
+        "scenario": 3897101088
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-loose__dp-weekday_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-loose__dp-weekday_high__sev-schwer.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "loose",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 28,
+            "t_start": 15,
+            "duration": 4
+          },
+          {
+            "i": 3,
+            "t_start": 43,
+            "duration": 4
+          },
+          {
+            "i": 80,
+            "t_start": 23,
+            "duration": 4
+          },
+          {
+            "i": 2,
+            "t_start": 16,
+            "duration": 4
+          },
+          {
+            "i": 25,
+            "t_start": 34,
+            "duration": 4
+          },
+          {
+            "i": 86,
+            "t_start": 16,
+            "duration": 4
+          },
+          {
+            "i": 19,
+            "t_start": 15,
+            "duration": 4
+          },
+          {
+            "i": 56,
+            "t_start": 50,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2038114521,
+        "scenario": 3133899938
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-loose__dp-weekend_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-loose__dp-weekend_high__sev-leicht.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "loose",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 87,
+            "t_start": 17,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2017729274,
+        "scenario": 2426880986
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-loose__dp-weekend_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-loose__dp-weekend_high__sev-mittel.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "loose",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 35,
+            "t_start": 37,
+            "duration": 2
+          },
+          {
+            "i": 50,
+            "t_start": 35,
+            "duration": 2
+          },
+          {
+            "i": 15,
+            "t_start": 53,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2017729274,
+        "scenario": 3925412065
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-loose__dp-weekend_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-loose__dp-weekend_high__sev-schwer.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "loose",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 6,
+            "t_start": 45,
+            "duration": 4
+          },
+          {
+            "i": 97,
+            "t_start": 38,
+            "duration": 4
+          },
+          {
+            "i": 80,
+            "t_start": 16,
+            "duration": 4
+          },
+          {
+            "i": 20,
+            "t_start": 47,
+            "duration": 4
+          },
+          {
+            "i": 9,
+            "t_start": 52,
+            "duration": 4
+          },
+          {
+            "i": 87,
+            "t_start": 25,
+            "duration": 4
+          },
+          {
+            "i": 41,
+            "t_start": 37,
+            "duration": 4
+          },
+          {
+            "i": 18,
+            "t_start": 22,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2017729274,
+        "scenario": 3527004316
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-tight__dp-weekday_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-tight__dp-weekday_high__sev-leicht.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "tight",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 89,
+            "t_start": 17,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1981882898,
+        "scenario": 1800120749
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-tight__dp-weekday_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-tight__dp-weekday_high__sev-mittel.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "tight",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 1,
+            "t_start": 18,
+            "duration": 2
+          },
+          {
+            "i": 93,
+            "t_start": 33,
+            "duration": 2
+          },
+          {
+            "i": 55,
+            "t_start": 41,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1981882898,
+        "scenario": 2952984067
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-tight__dp-weekday_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-tight__dp-weekday_high__sev-schwer.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "tight",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 78,
+            "t_start": 49,
+            "duration": 4
+          },
+          {
+            "i": 63,
+            "t_start": 32,
+            "duration": 4
+          },
+          {
+            "i": 39,
+            "t_start": 45,
+            "duration": 4
+          },
+          {
+            "i": 66,
+            "t_start": 52,
+            "duration": 4
+          },
+          {
+            "i": 16,
+            "t_start": 38,
+            "duration": 4
+          },
+          {
+            "i": 35,
+            "t_start": 50,
+            "duration": 4
+          },
+          {
+            "i": 83,
+            "t_start": 28,
+            "duration": 4
+          },
+          {
+            "i": 38,
+            "t_start": 27,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1981882898,
+        "scenario": 2009766621
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-tight__dp-weekend_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-tight__dp-weekend_high__sev-leicht.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "tight",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 84,
+            "t_start": 20,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 3756557750,
+        "scenario": 1101855369
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-tight__dp-weekend_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-tight__dp-weekend_high__sev-mittel.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "tight",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 43,
+            "t_start": 15,
+            "duration": 2
+          },
+          {
+            "i": 33,
+            "t_start": 40,
+            "duration": 2
+          },
+          {
+            "i": 68,
+            "t_start": 31,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 3756557750,
+        "scenario": 495487307
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-medium__av-tight__dp-weekend_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-medium__av-tight__dp-weekend_high__sev-schwer.json",
+      "tags": {
+        "size_class": "medium",
+        "availability_level": "tight",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 99,
+            "t_start": 32,
+            "duration": 4
+          },
+          {
+            "i": 78,
+            "t_start": 41,
+            "duration": 4
+          },
+          {
+            "i": 39,
+            "t_start": 50,
+            "duration": 4
+          },
+          {
+            "i": 55,
+            "t_start": 46,
+            "duration": 4
+          },
+          {
+            "i": 35,
+            "t_start": 26,
+            "duration": 4
+          },
+          {
+            "i": 48,
+            "t_start": 41,
+            "duration": 4
+          },
+          {
+            "i": 53,
+            "t_start": 31,
+            "duration": 4
+          },
+          {
+            "i": 32,
+            "t_start": 51,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 3756557750,
+        "scenario": 2789347830
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-loose__dp-weekday_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-loose__dp-weekday_high__sev-leicht.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "loose",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 31,
+            "t_start": 54,
+            "duration": 1
+          },
+          {
+            "i": 183,
+            "t_start": 15,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 380298144,
+        "scenario": 3987306247
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-loose__dp-weekday_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-loose__dp-weekday_high__sev-mittel.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "loose",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 17,
+            "t_start": 48,
+            "duration": 2
+          },
+          {
+            "i": 37,
+            "t_start": 32,
+            "duration": 2
+          },
+          {
+            "i": 68,
+            "t_start": 44,
+            "duration": 2
+          },
+          {
+            "i": 76,
+            "t_start": 36,
+            "duration": 2
+          },
+          {
+            "i": 27,
+            "t_start": 26,
+            "duration": 2
+          },
+          {
+            "i": 10,
+            "t_start": 37,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 380298144,
+        "scenario": 3527995278
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-loose__dp-weekday_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-loose__dp-weekday_high__sev-schwer.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "loose",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 175,
+            "t_start": 42,
+            "duration": 4
+          },
+          {
+            "i": 152,
+            "t_start": 36,
+            "duration": 4
+          },
+          {
+            "i": 98,
+            "t_start": 47,
+            "duration": 4
+          },
+          {
+            "i": 127,
+            "t_start": 28,
+            "duration": 4
+          },
+          {
+            "i": 162,
+            "t_start": 24,
+            "duration": 4
+          },
+          {
+            "i": 161,
+            "t_start": 52,
+            "duration": 4
+          },
+          {
+            "i": 99,
+            "t_start": 41,
+            "duration": 4
+          },
+          {
+            "i": 52,
+            "t_start": 18,
+            "duration": 4
+          },
+          {
+            "i": 122,
+            "t_start": 53,
+            "duration": 4
+          },
+          {
+            "i": 158,
+            "t_start": 32,
+            "duration": 4
+          },
+          {
+            "i": 10,
+            "t_start": 50,
+            "duration": 4
+          },
+          {
+            "i": 57,
+            "t_start": 16,
+            "duration": 4
+          },
+          {
+            "i": 107,
+            "t_start": 20,
+            "duration": 4
+          },
+          {
+            "i": 143,
+            "t_start": 45,
+            "duration": 4
+          },
+          {
+            "i": 28,
+            "t_start": 49,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 380298144,
+        "scenario": 982435135
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-loose__dp-weekend_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-loose__dp-weekend_high__sev-leicht.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "loose",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 159,
+            "t_start": 19,
+            "duration": 1
+          },
+          {
+            "i": 179,
+            "t_start": 32,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1608735894,
+        "scenario": 3160269448
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-loose__dp-weekend_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-loose__dp-weekend_high__sev-mittel.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "loose",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 1,
+            "t_start": 28,
+            "duration": 2
+          },
+          {
+            "i": 124,
+            "t_start": 19,
+            "duration": 2
+          },
+          {
+            "i": 175,
+            "t_start": 17,
+            "duration": 2
+          },
+          {
+            "i": 28,
+            "t_start": 54,
+            "duration": 2
+          },
+          {
+            "i": 176,
+            "t_start": 40,
+            "duration": 2
+          },
+          {
+            "i": 60,
+            "t_start": 17,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1608735894,
+        "scenario": 3192385260
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-loose__dp-weekend_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-loose__dp-weekend_high__sev-schwer.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "loose",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 7,
+            "t_start": 32,
+            "duration": 4
+          },
+          {
+            "i": 141,
+            "t_start": 51,
+            "duration": 4
+          },
+          {
+            "i": 77,
+            "t_start": 50,
+            "duration": 4
+          },
+          {
+            "i": 192,
+            "t_start": 35,
+            "duration": 4
+          },
+          {
+            "i": 67,
+            "t_start": 18,
+            "duration": 4
+          },
+          {
+            "i": 167,
+            "t_start": 34,
+            "duration": 4
+          },
+          {
+            "i": 23,
+            "t_start": 43,
+            "duration": 4
+          },
+          {
+            "i": 34,
+            "t_start": 37,
+            "duration": 4
+          },
+          {
+            "i": 93,
+            "t_start": 32,
+            "duration": 4
+          },
+          {
+            "i": 89,
+            "t_start": 44,
+            "duration": 4
+          },
+          {
+            "i": 53,
+            "t_start": 46,
+            "duration": 4
+          },
+          {
+            "i": 5,
+            "t_start": 46,
+            "duration": 4
+          },
+          {
+            "i": 163,
+            "t_start": 15,
+            "duration": 4
+          },
+          {
+            "i": 22,
+            "t_start": 43,
+            "duration": 4
+          },
+          {
+            "i": 74,
+            "t_start": 30,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1608735894,
+        "scenario": 4285968667
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-tight__dp-weekday_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-tight__dp-weekday_high__sev-leicht.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "tight",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 175,
+            "t_start": 43,
+            "duration": 1
+          },
+          {
+            "i": 101,
+            "t_start": 50,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2021761891,
+        "scenario": 484250717
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-tight__dp-weekday_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-tight__dp-weekday_high__sev-mittel.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "tight",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 58,
+            "t_start": 15,
+            "duration": 2
+          },
+          {
+            "i": 84,
+            "t_start": 39,
+            "duration": 2
+          },
+          {
+            "i": 2,
+            "t_start": 41,
+            "duration": 2
+          },
+          {
+            "i": 14,
+            "t_start": 37,
+            "duration": 2
+          },
+          {
+            "i": 29,
+            "t_start": 20,
+            "duration": 2
+          },
+          {
+            "i": 110,
+            "t_start": 40,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2021761891,
+        "scenario": 1373355587
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-tight__dp-weekday_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-tight__dp-weekday_high__sev-schwer.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "tight",
+        "demand_pattern": "weekday_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 55,
+            "t_start": 43,
+            "duration": 4
+          },
+          {
+            "i": 181,
+            "t_start": 41,
+            "duration": 4
+          },
+          {
+            "i": 160,
+            "t_start": 31,
+            "duration": 4
+          },
+          {
+            "i": 164,
+            "t_start": 29,
+            "duration": 4
+          },
+          {
+            "i": 51,
+            "t_start": 19,
+            "duration": 4
+          },
+          {
+            "i": 40,
+            "t_start": 20,
+            "duration": 4
+          },
+          {
+            "i": 157,
+            "t_start": 38,
+            "duration": 4
+          },
+          {
+            "i": 193,
+            "t_start": 41,
+            "duration": 4
+          },
+          {
+            "i": 5,
+            "t_start": 18,
+            "duration": 4
+          },
+          {
+            "i": 142,
+            "t_start": 20,
+            "duration": 4
+          },
+          {
+            "i": 42,
+            "t_start": 46,
+            "duration": 4
+          },
+          {
+            "i": 140,
+            "t_start": 38,
+            "duration": 4
+          },
+          {
+            "i": 104,
+            "t_start": 50,
+            "duration": 4
+          },
+          {
+            "i": 56,
+            "t_start": 18,
+            "duration": 4
+          },
+          {
+            "i": 159,
+            "t_start": 33,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 2021761891,
+        "scenario": 2224525550
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-tight__dp-weekend_high__sev-leicht",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-tight__dp-weekend_high__sev-leicht.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "tight",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "leicht",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 181,
+            "t_start": 40,
+            "duration": 1
+          },
+          {
+            "i": 40,
+            "t_start": 16,
+            "duration": 1
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1102411308,
+        "scenario": 877655498
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-tight__dp-weekend_high__sev-mittel",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-tight__dp-weekend_high__sev-mittel.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "tight",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "mittel",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 96,
+            "t_start": 32,
+            "duration": 2
+          },
+          {
+            "i": 132,
+            "t_start": 22,
+            "duration": 2
+          },
+          {
+            "i": 70,
+            "t_start": 39,
+            "duration": 2
+          },
+          {
+            "i": 89,
+            "t_start": 54,
+            "duration": 2
+          },
+          {
+            "i": 51,
+            "t_start": 37,
+            "duration": 2
+          },
+          {
+            "i": 149,
+            "t_start": 52,
+            "duration": 2
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1102411308,
+        "scenario": 2665847233
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    },
+    {
+      "case_id": "sc-large__av-tight__dp-weekend_high__sev-schwer",
+      "file": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage1_dataset\\sc-large__av-tight__dp-weekend_high__sev-schwer.json",
+      "tags": {
+        "size_class": "large",
+        "availability_level": "tight",
+        "demand_pattern": "weekend_high"
+      },
+      "scenario": {
+        "severity": "schwer",
+        "model": "full_day_absence",
+        "events": [
+          {
+            "i": 54,
+            "t_start": 16,
+            "duration": 4
+          },
+          {
+            "i": 37,
+            "t_start": 20,
+            "duration": 4
+          },
+          {
+            "i": 63,
+            "t_start": 37,
+            "duration": 4
+          },
+          {
+            "i": 46,
+            "t_start": 21,
+            "duration": 4
+          },
+          {
+            "i": 157,
+            "t_start": 21,
+            "duration": 4
+          },
+          {
+            "i": 114,
+            "t_start": 53,
+            "duration": 4
+          },
+          {
+            "i": 47,
+            "t_start": 48,
+            "duration": 4
+          },
+          {
+            "i": 62,
+            "t_start": 38,
+            "duration": 4
+          },
+          {
+            "i": 167,
+            "t_start": 39,
+            "duration": 4
+          },
+          {
+            "i": 77,
+            "t_start": 24,
+            "duration": 4
+          },
+          {
+            "i": 78,
+            "t_start": 45,
+            "duration": 4
+          },
+          {
+            "i": 50,
+            "t_start": 53,
+            "duration": 4
+          },
+          {
+            "i": 80,
+            "t_start": 36,
+            "duration": 4
+          },
+          {
+            "i": 21,
+            "t_start": 29,
+            "duration": 4
+          },
+          {
+            "i": 122,
+            "t_start": 46,
+            "duration": 4
+          }
+        ],
+        "status": "ok"
+      },
+      "seeds": {
+        "global": 20260219,
+        "instance": 1102411308,
+        "scenario": 3473017547
+      },
+      "validation_ok": true,
+      "validation_ok_strict": true,
+      "post_disturbance_feasibility_ok": true,
+      "status": "written"
+    }
+  ]
+}

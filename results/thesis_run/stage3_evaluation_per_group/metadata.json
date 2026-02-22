@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-02-21T22:19:40.557776+00:00",
+  "git_commit": "0bf5fcd655f72ea59fc215e5a7c11327ad0f195f",
+  "cli_args": {
+    "input": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out",
+    "out": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out\\stage3_evaluation_per_group",
+    "methods": "V1,V2,V3,V4",
+    "group_by": "size,severity",
+    "size": null,
+    "severity": null,
+    "seed": null,
+    "eps": 1e-09,
+    "set_mode": "per_group",
+    "replicate_key": "seed_global",
+    "format": "pdf",
+    "max_is_plots": 12,
+    "export_pstar": false,
+    "plots": true,
+    "latex": true,
+    "qt_x": "runtime",
+    "qt_y": "nd_size"
+  },
+  "eps": 1e-09,
+  "input_root": "<USER_HOME>\\<CLOUD_DRIVE>\\Desktop\\BA_Pipeline\\fullrun_out",
+  "set_mode": "per_group",
+  "replicate_key": "seed_global"
+}
